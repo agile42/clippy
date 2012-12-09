@@ -45,7 +45,7 @@ class Clippy {
     
     button.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent) {
       label.visible = false;
-      label.text = "copy pot";
+      label.text = "copy pot#";
       label.setTextFormat(format);
     });
     
